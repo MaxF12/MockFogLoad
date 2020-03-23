@@ -1,0 +1,97 @@
+{
+    "testName": "HeartRate",
+    "stages": [
+        {
+            "id": 1,
+            "time": 10,
+            "node": [
+                {
+                    "id": "Node1",
+                    "generators": [
+                        {
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 30,
+                            "endpoint": "Node4",
+                            "active": true
+                        },
+                        {
+                            "id": "H21",
+                            "kind": "HeartRate",
+                            "frequency": 30,
+                            "endpoint": "Node",
+                            "active": true
+                        }
+                    ]
+                },
+                {
+                    "id": "Node2",
+                    "generators": [
+                        {
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 30,
+                            "endpoint": "Node4",
+                            "active": true
+                        }
+                    ]
+                },
+                {
+                    "id": "Node3",
+                    "generators": [
+                        {
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 30,
+                            "endpoint": "Node4",
+                            "active": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "time": 15,
+            "node": [
+                {
+                    "id": "Node1",
+                    "generators": [
+                        {
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 3000,
+                            "endpoint": "Node4",
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "id": "Node2",
+                    "generators": [
+                        {
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 3000,
+                            "endpoint": "Node4",
+                            "active": false
+                        }
+                    ]
+                },
+                {
+                    "id": "Node3",
+                    "generators": [
+                        {
+
+                            "id": "HR1",
+                            "kind": "HeartRate",
+                            "frequency": 3000,
+                            "endpoint": "Node4",
+                            "active": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

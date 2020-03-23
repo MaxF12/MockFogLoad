@@ -1,0 +1,11 @@
+/.gradle
+/.idea
+/out
+/build
+*.iml
+*.ipr
+*.iws
+
+/resources/credentials
+/resources/api/.swagger-codegen-ignore
+/resources/api/.swagger-codegen
